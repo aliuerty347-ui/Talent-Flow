@@ -1,0 +1,43 @@
+div:has(> div > a[href="/dashboard/employ"]) {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  background-color: #535559;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+div:has(> div > a[href="/dashboard/employ"]) > div {
+  width: 100%;
+  max-width: 320px;
+}
+
+div:has(> div > a[href="/dashboard/employ"]) a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+div:has(> div > a[href="/dashboard/employ"]) button {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+div:has(> div > a[href="/dashboard/employ"]) button:hover {
+  background-color: #1d4ed8;
+}
+
+div:has(> div > a[href="/dashboard/employ"]) button:active {
+  transform: scale(0.98);
+}

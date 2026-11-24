@@ -1,0 +1,57 @@
+/* حاوية الصفحة الكاملة لتوسيط المحتوى */
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px); /* استثناء شريط التنقل العلوي إن وجد */
+  background-color: #0b0f19; /* متوافق مع الوضع الداكن لمنصتك */
+  font-family: 'Cairo', sans-serif, system-ui;
+  direction: rtl;
+  padding: 1.5rem;
+}
+
+/* بطاقة المحتوى */
+.not-found-card {
+  text-align: center;
+  max-width: 450px;
+  width: 100%;
+  padding: 2.5rem;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+/* عنوان الخطأ */
+.error-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f3f4f6;
+  margin-bottom: 0.75rem;
+}
+
+/* وصف الخطأ */
+.error-desc {
+  font-size: 0.95rem;
+  color: #9ca3af;
+  margin-bottom: 1.75rem;
+  line-height: 1.5;
+}
+
+/* زر أو رابط العودة للرئيسية بتصميم مشابه لـ Get Started */
+.home-link {
+  display: inline-block;
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 0.65rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.home-link:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}

@@ -1,0 +1,260 @@
+.career-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    width: 100%;
+    background-color: #0b1329;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.career-card-large {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 16px;
+    padding: 40px;
+    width: 100%;
+      /* max-width: 100%; */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.career-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.career-header h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.location-badge {
+    background-color: #2563eb;
+    color: #eff6ff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.career-body {
+    margin-bottom: 25px;
+    text-align: right;
+}
+
+.career-body h3 {
+    color: #60a5fa;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.description-text {
+    color: #cbd5e1;
+    font-size: 15px;
+    line-height: 1.6;
+    background: rgba(15, 23, 42, 0.4);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.career-footer-info {
+    border-top: 1px solid #334155;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+.info-item {
+    background: rgba(15, 23, 42, 0.4);
+    padding: 10px 15px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-item span {
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+.info-item strong {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.loading-state, .error-state {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.u {
+    margin-top:10px ;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.25rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.u:hover {
+  background-color: #1d4ed8;
+}
+
+.u:active {
+  transform: scale(0.98);
+}
+
+.u:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  direction: rtl;
+  font-family: 'Cairo', system-ui, sans-serif;
+}
+
+.card {
+  background-color: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #f3f4f6;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #60a5fa;
+}
+
+.request-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+input[type="text"],
+input[type="url"] {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+input[type="text"],
+input[type="url"]
+:focus {
+  outline: none;
+  border-color: #2563eb;
+  width: 90%;
+}
+input[type="url"]:focus {
+  outline: none;
+  width: 90%;
+  border-color: #2563eb;
+}
+.o{
+  width: 90%;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-primary:disabled {
+  background-color: #4b5563;
+  cursor: not-allowed;
+}
+
+/* قائمة الطلبات */
+.requests-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.request-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1f2937;
+  border-radius: 8px;
+}
+
+.req-text {
+  margin: 0;
+  color: #e5e7eb;
+}
+
+.cv-link {
+  color: #60a5fa;
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 0.3rem 0.6rem;
+  background-color: rgba(37, 99, 235, 0.1);
+  border-radius: 6px;
+  border: 1px solid rgba(37, 99, 235, 0.3);
+}
+
+.cv-link:hover {
+  text-decoration: underline;
+}
+
+.empty-msg {
+  color: #6b7280;
+  text-align: center;
+}
